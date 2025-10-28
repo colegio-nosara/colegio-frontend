@@ -41,7 +41,7 @@ export default function Section() {
 
         //Obtener los datos
         const res = await retryFetch(
-          "https://backend-nodejs-production-79b3.up.railway.app/api/seccion"
+          "https://colegio-backend-production-b254.up.railway.app/api/seccion"
         );
 
         

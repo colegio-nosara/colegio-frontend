@@ -40,7 +40,7 @@ export default function requisitos() {
         
 
         //Obtener los datos
-        const res = await retryFetch("https://backend-nodejs-production-79b3.up.railway.app/api/requisitos");
+        const res = await retryFetch("https://colegio-backend-production-b254.up.railway.app/api/requisitos");
         
 
         //Si los datos son correctos los guarda y quita la pantalla de carga

@@ -39,7 +39,7 @@ export default function cronograma() {
         <Ping/>
 
         //Obtener los datos
-        const res = await retryFetch("https://backend-nodejs-production-79b3.up.railway.app/api/cronograma");
+        const res = await retryFetch("https://colegio-backend-production-b254.up.railway.app/api/cronograma");
 
         //Si los datos son correctos los guarda y quita la pantalla de carga
         if (res) {

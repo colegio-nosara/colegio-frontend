@@ -57,7 +57,7 @@ export async function retryFetch(url, intentos = 3, delay = 3000) {
 async function SolicitarToken() {
   //Obtiene el token y la cookie
   const res = await fetch(
-    "https://backend-nodejs-production-79b3.up.railway.app/getToken",
+    "https://colegio-backend-production-b254.up.railway.app/getToken",
     {
       method: "POST",
       headers: {
@@ -77,7 +77,7 @@ async function SolicitarToken() {
 async function ValidarCookie() {
   //Verifica si tiene la cookie
   const res = await fetch(
-    "https://backend-nodejs-production-79b3.up.railway.app/verificar",
+    "https://colegio-backend-production-b254.up.railway.app/verificar",
     {
       credentials: "include",
     }

@@ -7,7 +7,7 @@ export default function Ping() {
       try {
         //Enviar solicitud para encender el servidor y BD
         const res = await fetch(
-          "https://backend-nodejs-production-79b3.up.railway.app/ping"
+          "https://colegio-backend-production-b254.up.railway.app/ping"
         );
 
         //Validar si esta o no en reposo
