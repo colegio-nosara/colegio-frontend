@@ -1,3 +1,5 @@
+"use client";
+import { useState, useEffect } from "react";
 import styles from "../styles/Modulos/inicio.module.css";
 
 //Arrays de meses
@@ -98,21 +100,32 @@ const meses = [
 ];
 
 export default function fechas() {
+  const [mes, setMes] = useState("Mes no encontrado");
+  const [diasEspeciales, setDiasEspeciales] = useState([]);
 
-  //Obtener fecha actual
-  var mesActual = new Date().toLocaleDateString("es-ES", { month: "long" });
+  useEffect(() => {
+    //Obtener la fecha actual
+    const mesActual = new Date().toLocaleDateString("es-CR", {
+      month: "long",
+      timeZone: "America/Costa_Rica",
+    });
 
-  //Buscar el mes del array y si coincide con el actual
-  var mesEncontrado = meses.find(
-    (m) => m.mes.toLowerCase() === mesActual.toLowerCase()
-  );
+    //Buscar el mes del array y si coincide con el actual
+    const mesEncontrado = meses.find(
+      (m) => m.mes.toLowerCase() === mesActual.toLowerCase()
+    );
 
-  //Validar si encontro el mes
-  const mes = mesEncontrado?.mes ?? "Mes no encotrado";
+    //Validar si encontro el mes
+    setMes(mesEncontrado?.mes ?? "Mes no encontrado");
 
-  //Validar si el mes encontrado tiene dias especiales
-  const diasEspeciales = mesEncontrado?.dias ?? [];
+    //Validar si el mes encontrado tiene dias especiales
+    setDiasEspeciales(mesEncontrado?.dias ?? []);
+  }, []);
 
+  //Mensaje de carga mientras encuentra el mes
+  if (mes === "Mes no encontrado") {
+    return <div className={styles.containerDiasEspeciales}>Cargando...</div>;
+  }
 
   return (
     <section className={styles.containerDiasEspeciales}>
