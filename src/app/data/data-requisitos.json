@@ -1,0 +1,53 @@
+
+  {
+    "requisitos": [
+      {
+        "id": 1,
+        "requisito": "Original y fotocopia del título de 6⁰ (sexto grado)."
+      },
+      {
+        "id": 2,
+        "requisito": "Original y fotocopia de la nota de sexto grado (tarjeta de calificaciones)."
+      },
+      { "id": 3, "requisito": "2 fotos tamaño pasaporte." },
+      {
+        "id": 4,
+        "requisito": "Cédula de menor del estudiante o u otra identificación."
+      },
+      {
+        "id": 5,
+        "requisito": "Cédula original y fotocopia de los padres o encargado legal."
+      },
+      {
+        "id": 6,
+        "requisito": "Matrícula a cargo del padre, madre de familia o encargado legal."
+      },
+      { "id": 7, "requisito": "Copia de la póliza del INS (opcional)." },
+      {
+        "id": 8,
+        "requisito": "Título de 9.º año (para diversificada) (original y fotocopia)."
+      },
+      {
+        "id": 9,
+        "requisito": "En caso de traslado deberá traer historial de los años que cursó en la otra institución."
+      },
+      {
+        "id": 10,
+        "requisito": "Short-Enagua color negra hasta la rodilla. O pantalón color negro NO tubo."
+      },
+      {
+        "id": 11,
+        "requisito": "Pantalón color negro NO tubo con guarda faja. Faja color negro."
+      },
+      {
+        "id": 12,
+        "requisito": "Zapato escolar color negro. Tenis color negro, gris, blanca o azul."
+      },
+      { "id": 13, "requisito": "Medias color negro." },
+      {
+        "id": 14,
+        "requisito": "Camisa color turquesa oficial del colegio con su respectivo escudo."
+      }
+    ]
+  }
+

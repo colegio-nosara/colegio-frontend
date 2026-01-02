@@ -8,7 +8,7 @@ export default function VidaEstudiantil() {
       <h1 className={styles.titulo}>Vida estudiantil</h1>
 
       {/* Componente que contiene toda la seccion de vida estudiantil */}
-      <Section />
+      <Section/>
     </div>
   );
 }

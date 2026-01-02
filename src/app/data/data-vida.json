@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "titulo": "Fútbol",
+    "info": "La institución cuenta con equipos femeninos y masculinos. Los estudiantes pueden ser parte del equipo y competir contra otros colegios, demostrando disciplina, respeto y el trabajo en equipo. Sus campos de fútbol están en Santa Teresa cerca de la institución y en Santa Marta.",
+    "imgUrl": "https://res.cloudinary.com/drcrmd7ac/image/upload/v1761523804/futbol_gnadsu.webp"
+  },
+  {
+    "id": 2,
+    "titulo": "Actos cívicos",
+    "info": "Se realizan en el salón multiusos de la institución, estos son realizados para recordar fechas históricas y para que los estudiantes participen y fortalezcan su identidad nacional. El estudiante mediante estas actividades adquiere un vínculo entre la institución, la cultura y la ciudadanía.",
+    "imgUrl": "https://res.cloudinary.com/drcrmd7ac/image/upload/v1761523803/actos-civicos_crmsdo.webp"
+  },
+  {
+    "id": 3,
+    "titulo": "Banda",
+    "info": "Un grupo de banda con docentes enfocados en incentivar el uso de instrumentos y la participación en desfiles, tanto en actividades patrióticas como festivas.",
+    "imgUrl": "https://res.cloudinary.com/drcrmd7ac/image/upload/v1761523803/banda_no1fmb.webp"
+  },
+  {
+    "id": 4,
+    "titulo": "Zonas verdes",
+    "info": "El colegio Bocas de Nosara cuenta con zonas verdes brindando un entorno social, para los estudiantes en los recreos o en su tiempo libre. Así mismo para compartir.",
+    "imgUrl": "https://res.cloudinary.com/drcrmd7ac/image/upload/v1761523804/zonas-verdes_socvze.webp"
+  },
+  {
+    "id": 5,
+    "titulo": "Área de cómputo",
+    "info": "Un área equipada con computadoras para los estudiantes en su aprendizaje digital. Además de poder utilizarla para realizar investigaciones o realizar tareas. Esta área le brinda al estudiante un apoyo académico al mundo digital.",
+    "imgUrl": "https://res.cloudinary.com/drcrmd7ac/image/upload/v1761523803/computo_vjuedh.webp"
+  },
+  {
+    "id": 6,
+    "titulo": "Actividades",
+    "info": "Los estudiantes podrán participar de actividades culturales como juegos, bailes, deportes, carreras de saco, arte, entre otros. En fechas históricas como la Guanacastequidad y el juego del toro mecánico, entre otras fechas.",
+    "imgUrl": "https://res.cloudinary.com/drcrmd7ac/image/upload/v1761523803/toro-mecanico_myok6u.webp"
+  },
+  {
+    "id": 7,
+    "titulo": "Grupo de baile folclórico",
+    "info": "Un grupo de baile con vestimenta tradicional, participación colectiva y con presencia en eventos. Tienen el objetivo de conservar y celebrar la identidad costarricense tradicional.",
+    "imgUrl": "https://res.cloudinary.com/drcrmd7ac/image/upload/v1761523803/folklorico-3_clt9qm.webp"
+  },
+  {
+    "id": 8,
+    "titulo": "Voleibol",
+    "info": "Un salón multiusos que permite a los estudiantes practicar y participar en torneos como voleibol, ofreciendo una competencia sana a los estudiantes.",
+    "imgUrl": "https://res.cloudinary.com/drcrmd7ac/image/upload/v1761523803/volleybol_stalvq.webp"
+  }
+]

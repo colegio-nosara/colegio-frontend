@@ -7,13 +7,14 @@ import Ping from "./components/Ping";
 export default function Inicio() {
   return (
     <div className={styles.contenido}>
-      <Ping />
+      {/* <Ping /> */}
       <h1 className={styles.titulo}>Colegio Bocas de Nosara</h1>
       <h1 className={styles.lema}>El futuro se construye hoy</h1>
-      <div>
+
         {/* Componente de fechas especiales o patrioticos del mes */}
+      {/* <div>
         <Fechas />
-      </div>
+      </div> */}
 
       {/* Cada seccion envia un parametro al componente Section para realizar el renderizado y validar si no tiene imagen mediante un booleano */}
       <Section

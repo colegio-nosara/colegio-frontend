@@ -24,9 +24,9 @@ export default function Matricula() {
       </div>
 
       {/* Seccion de los periodos de matricula y su componente que los muestra */}
-      <h2 className={styles.titulo}>Periodos de matrícula</h2>
+      {/* <h2 className={styles.titulo}>Periodos de matrícula</h2>
+      <Cronograma /> */}
 
-      <Cronograma />
     </main>
   );
 }

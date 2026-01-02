@@ -1,0 +1,29 @@
+{
+    "tipos": [
+        {
+            "id": 1,
+            "tipo": "matrícula primer ingreso",
+            "requisitos": [1,2,3,4,5,6,7]
+        },
+        {
+            "id": 2,
+            "tipo": "ratificación de matrícula",
+            "requisitos": [5,4,8,9,6,7]
+        },
+        {
+            "id": 3,
+            "tipo": "uniforme señoritas",
+            "requisitos": [10,14,13,12]
+        },
+        {
+            "id": 4,
+            "tipo": "uniforme caballeros",
+            "requisitos": [11,14,13,12]
+        }
+    ]
+}
+
+
+
+
+
